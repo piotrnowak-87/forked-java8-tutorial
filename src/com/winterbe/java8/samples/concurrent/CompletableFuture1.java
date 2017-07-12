@@ -5,6 +5,9 @@ import java.util.concurrent.ExecutionException;
 
 /**
  * @author Benjamin Winterberg
+ 
+     
+    // my comment 3
  */
 public class CompletableFuture1 {
 
@@ -18,7 +21,6 @@ public class CompletableFuture1 {
                 .thenAccept(v -> System.out.println("done"));
 
     }
-    
-    // my comment 3
+
 
 }
